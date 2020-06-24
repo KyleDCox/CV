@@ -1,0 +1,136 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[paper=letterpaper,left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{soul}
+\usepackage{enumitem}
+\newlist{deflist}{description}{2}
+\setlist[deflist]{labelwidth=2cm,leftmargin=!,font=\normalfont}
+\usepackage{hanging}
+\cfoot{\thepage}
+
+\newcommand{\addEXP}[4]{
+	\textbf{#1} --- \begin{small}\textbf{#2}\end{small}\\
+	#3
+	#4
+}
+\newcommand{\addEDU}[4]{
+	\textbf{#1}, \begin{small}\textbf{#2}\end{small}
+	--- #3
+	#4
+}
+
+
+\begin{document}
+\begin{center}
+\fontsize{16}{19.2}
+\textbf{Kyle Deetjen Cox}\\
+\fontsize{12}{14.4}
+Curriculum vitae\\
+April, 2020\\
+\noindent\rule{\linewidth}{0.4pt}\\
+%%%%%%%%
+Bayer Crop Science, Research and Development\\
+890 Embarcadero Drive, West Sacramento, CA 95605\\
+kdcox@ucdavis.edu $\vert$ (916) 549-8949\\
+\noindent\rule{\linewidth}{0.4pt}\\
+\end{center}
+%%%%%%%%%
+\textbf{Education}
+\begin{itemize}
+\item[]
+\begin{deflist}
+	\item [2018] B.S.; Evolution, Ecology and Biodiversity; University of California Davis
+	\item [2018] B.S., Applied Mathematics, University of California Davis
+\end{deflist}
+\end{itemize}
+\vspace*{1\baselineskip}
+%%
+\textbf{Research Experience}
+\begin{itemize}
+	\item[]
+	\begin{deflist}
+		\item [2018-] Genomics and Data Scientist, Bayer Crop Science, Research and Development, West Sacramento, CA\smallskip\\
+		Using R, Python, and Bash, developed a hierarchical machine learning model that increased predictive performance by ~47\% over previous models. Created interactive HTML reports using Rmd. Built REML models in R for multiple projects. Constructed Monte Carlo simulations for power analyses. Developed pipelines for bioinformatic analyses. Designed experimental treatment layouts and visualizations for multiple field projects.\smallskip
+		\item [2017-18] Undergraduate Researcher (Theoretical Ecology), Department of Evolution and Ecology---Sebastian Schreiber's lab, University of California Davis\smallskip\\
+		Developed a set of difference equations to examine the dynamics of  diploid population genetics within source-sink landscapes. Independent project with guidance from Sebastian Schreiber (see Cox and Schreiber (in preparation) and poster presentation below).\smallskip
+		\item [2017-18] Undergraduate Researcher (Mathematical Biology), Department of Environmental Science and Policy---Alan Hasting's lab, University of California Davis\smallskip\\
+		Using Ricker models in R, designed and conducted a supplementary parameter-fitting experiment using the confused flour beetle (\textit{Tribolium confusum}). Generated interactive data visualizations from Monte Carlo simulations. Helped plan and execute the main experiment, and co-author the resulting publication (see White, E et al. (2019) below).\smallskip
+		\item [2017] Undergraduate Researcher (Experimental Ecology), Department of Evolution and Ecology, University of California Davis\\
+		Over a 20-week period, designed, conducted and analyzed an experiment on trophic responses to artificial light at night (see M. McMunn et al. (2019) below).\smallskip
+		\item [2016-19] Volunteer Raptor Caretaker, California Raptor Center, Davis, CA\smallskip\\
+		Conducted health examinations and administered medication to injured and orphaned birds of prey. Tracked progress of recovering patients and re-introduced successfully-healed individuals to the wild.\smallskip
+		\item [2014-16] Data Analyst, UC Davis Genome Center, University of California Davis\smallskip\\
+		Created bioinformatic pipelines using Python and Bash to analyze the genomes of crop vegetables and downy mildews. Generated genomic visualizations using R. Helped identify an ancestral genome triplication in lettuce (see S. Reyes-Chin-Wo \textit{et al.} (2017) below).\smallskip
+		\item [2011-2013] Student Researcher, Arcade Creek Project, Mira Loma High School, Sacramento, CA\smallskip\\
+		Collected and analyzed benthic-layer sediment as part of a multi-decade study of Arcade Creek. Removed non-native plant species and tracked the presence of invasive \textit{Corbicula fluminea}.
+	\end{deflist}
+\end{itemize}
+\vspace*{1\baselineskip}
+%%
+\textbf{Publications}\medskip
+
+\begin{hangparas}{3em}{1}
+White, E., \textbf{Cox, K.}, Melbourne, B. and Hastings, A. (2019). ``Success and failure of ecological management is highly variable in an experimental test,'' Proceedings of the National Academy of Sciences. 116 (46) 23169-23173. \href{https://doi.org/10.1073/pnas.1911440116}{doi:10.1073/pnas.1911440116}
+
+Marshall S Mcmunn, Louie H Yang, Amy Ansalmo, Keatyn Bucknam, Miles Claret, Cameron Clay, \textbf{Kyle Cox}, Darian R Dungey, Asia Jones, Ashley Y Kim, Robert Kubacki, Rachel Le, Deniss Martinez, Brian Reynolds, John Schroder, and Emily Wood. (2019). ``Artificial light increases local predator abundance, predation rates, and herbivory,'' Environmental Entomology. 48:6:1331-1339. \href{https://doi.org/10.1093/ee/nvz103}{doi:10.1093/ee/nvz103}.
+
+Sebastian Reyes-Chin-Wo, Zhiwen Wang, Xinhua Yang, Alexander Kozik, Siwaret Arikit, Chi Song, Liangfeng Xia, Lutz Froenicke, Dean O. Lavelle, María-José Truco, Rui Xia, Shilin Zhu, Chunyan Xu, Huaqin Xu, Xun Xu, \textbf{Kyle Cox}, Ian Korf, Blake C. Meyers and Richard W. Michelmore. (2017). ``Genome assembly with in vitro proximity ligation data and whole genome triplication in lettuce,'' Nature Communications. 8, 14953. \href{https://www.nature.com/articles/ncomms14953}{doi:10.1038/ncomms14953}.
+
+\textbf{Cox, K.} and Schreiber, S. (in preparation). ``Source-sink landscapes can select for populations resilient to habitat loss''\\
+\vspace*{1\baselineskip}
+\end{hangparas}
+\noindent
+\textbf{Conference Posters}\medskip
+
+\begin{hangparas}{3em}{1}
+\textbf{Cox, K} and Gupta, B. ``Decontamination: strengthening the integrity of our strain collection.'' Poster presentation: June 25, 2019. Innovations in Crop Science (Bayer Crop Science), West Sacramento, CA.
+
+\newpage
+\textbf{Cox, K} and Schreiber, S. ``Source-sink landscapes influence genetic diversity.'' Poster presentation: April 27, 2018. 29$^{\text{th}}$ Annual UC Davis Undergraduate Research Conference, Davis, CA.\\
+\vspace*{1\baselineskip}
+\end{hangparas}
+
+\noindent
+\textbf{Honors and Awards}
+\begin{itemize}
+	\item[]
+	\begin{deflist}
+		\item [2017] Tracy and Ruth Storer Zoological Scholarship, UC Davis Comittee on Undergraduate Scholarships, Honors \& Prizes
+		\item [2013] International Baccalaureate Diploma, Mira Loma High School / International Baccalaureate Organization
+		\item [2013] Valedictory Scholar, Mira Loma High School
+	\end{deflist}
+\end{itemize}
+\vspace*{1\baselineskip}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Teaching and Extension Experience}
+\begin{itemize}
+	\item[]
+	\begin{deflist}
+		\item [2019] Hosted an ``Intermediate R and Introduction to UNIX'' workshop for four coworkers and peers, West Sacramento, CA
+		\item [2019] Presented a talk on machine learning to an audience of around 120 coworkers and peers, West Sacramento, CA
+		\item [2018] Private tutor for calculus, Davis, CA
+		\item [2018] Prepared and taught an ``Introduction to R'' workshop to a group of about 10 undergraduates, Davis, CA
+		\item [2016-19] Taught the public about raptor physiology, ecology and conservation at open house events, classroom environments, and small gatherings, interacting with several-thousand individuals over several years, Davis, CA
+	\end{deflist}
+\end{itemize}
+%\vspace*{1\baselineskip}
+%\textbf{Skills}
+%\begin{multicols}{2}
+%	\begin{itemize}
+%		\item Expert programmer in R, Python, the UNIX environment for statistical modeling, machine-learning, and general programming
+%		\item Familiar with R Shiny Apps, Matlab, PostgreSQL, C, C++, YAML and HTML
+%		\item Expert in Rmarkdown and LaTeX
+%		\item Experienced in designing experiments and scientific studies
+%		\item Experienced in data collection
+%		\item Interested in wildlife management and automated ecological surveying
+%		\item \href{https://i.gyazo.com/38c9f1871450942f5e0cc369ddecd3b0.png}{Self-taught unicyclist}
+%	\end{itemize}
+%\end{multicols}
+
+\vspace*{\fill}
+\end{document}
